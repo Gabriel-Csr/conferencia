@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.menuprincipal ul li {
+    display:inline-flex;
+    padding-left: 22px;
+    text-align: right;
+}
+
+.menuprincipal ul li a {
+    color: rgb(0, 0, 0);
+}
+
+.menuprincipal ul li a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.menuprincipal {
+    float: left;
+    font-size: 22px;
+    padding-left: 5px;
+
+    transition: 1s;
+}
+
+#menu {
+    height: 900px;
+}
+
